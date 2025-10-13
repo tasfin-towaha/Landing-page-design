@@ -86,7 +86,7 @@ nav {
 
 .flex {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .div {
@@ -146,11 +146,11 @@ nav {
 /* hero section start*/
 
 #banner {
-    min-height: 407px;
+    min-height: 599px;
     background-repeat: no-repeat;
     background-position: top right;
-    margin: 0px 90px;
     background-color: var(--background-color);
+    margin-top: 96px;
 }
 
 .content {
@@ -196,7 +196,6 @@ nav {
 }
 
 .contentf {
-    margin: 161.5px 104px 161.5px 0px;
     width: 657px;
     padding-top: 130px;
 
@@ -223,6 +222,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-top: 215px;
 }
 
 /* hero section end*/
@@ -490,4 +490,122 @@ nav {
 }
 
 /*last section start*/
+
+/*article section start*/
+
+.article1h2 {
+    font-size: 36px;
+    line-height: 44px;
+    font-family: "Inter", sans-serif;
+    color: var(--font-color)
+}
+
+.article1p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--p-color);
+}
+
+.articlemarginp {
+    margin-top: 16px;
+}
+
+.articlebtn {
+    padding: 14px 32px;
+    background-color: var(--btn-color);
+    border-radius: 4px;
+    color: var(--btn-fontcolor);
+}
+
+.articlebtn1 {
+    margin-top: 32px;
+}
+
+.article1 {
+    width: 661px;
+    margin-top: 62px;
+    margin-left: 49px;
+}
+
+.articleimg {
+    margin-top: 48px;
+}
+
+.article2p {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--p-color);
+}
+
+.article2margin {
+    margin-top: 5px;
+}
+
+.article2h2 {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--btn-color);
+    margin-top: 16px;
+}
+
+.artlastp {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--p-color);
+    margin-top: 8px;
+}
+
+.articleimg2 {
+    margin-top: 48px;
+    background-color: var(--background-color);
+    max-height: 390px;
+}
+
+.article2logo {
+    height: 48px;
+}
+
+.article2 {
+    margin-left: 78px;
+}
+
+.art2logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 32PX;
+}
+
+.art2logo {
+    gap: 22px;
+}
+
+.artlogoh2 {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    color: var(--btn-color);
+    font-weight: 600;
+}
+
+.artilogo2h2 {
+    display: flex;
+    align-items: center;
+}
+
+.logoarticle {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.rightimg {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+/*article section end*/
 /*section end*/
