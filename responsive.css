@@ -1,0 +1,15 @@
+@media (min-width:  1280px) and (max-width: 1535px) {
+
+    .container {
+        max-width: 
+    }
+    .navright {
+        margin:11px 94.5px 0px 166.01px;;
+    }
+    .navbtn {
+        margin-right: 5px;
+    }
+    .navleft {
+        margin-top: 17px;
+    }
+}
